@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node / build artifacts (none used, but included in case future tooling is added)
+node_modules/
+dist/
+.env
+
+# Backup files
+*.bak
+*~
+
+# Personal lead data — never commit real leads to a public repo
+*.xlsx
+*.csv
+!TUMA_No_Web_Leads.xlsx.example
